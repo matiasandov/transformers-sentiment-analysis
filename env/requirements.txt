@@ -1,0 +1,18 @@
+elasticsearch==7.10.0
+farm-haystack==0.7.0
+kaggle==1.5.12
+nltk==3.5
+numpy
+pandas
+rouge==1.0.0
+seaborn==0.11.1
+transformers==4.1.1
+sentence-transformers==1.1.0
+#needed to install it independently
+#spacy
+#spacy-transformers
+#flair==0.8
+#scikit-learn
+#tensorflow==2.5.1
+#tensorflow
+#needed to install it independently ipykernel
