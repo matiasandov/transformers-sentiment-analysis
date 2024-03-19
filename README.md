@@ -16,10 +16,24 @@ Applications - with the set goal to leverage Arianee by providing valuable data 
 
 This model could be scalable and re-used seasonally to keep the business updated.
 
-## Tech details
+## Technologies used
 
 **Natural Language Processing (NLP) for Sentiment Analysis:**
 
-- Utilize NLP techniques to analyze sentiment in textual data from social media, news articles, or other sources.
-- Preprocess text data by tokenization, stemming, and removing stop words.
-- Train or use pre-trained sentiment analysis models to categorize text into positive, negative, or neutral sentiments.
+**Crawlers**
+
+**Transformers**
+
+## Steps of implementation
+First stage
+1. Build an automated web crawler with Selenium and BeautifulSoup to extract the texts and descriptions of posts in Linekdin
+2. Clean and explore this raw descriptions  and structure them
+3. Pre-process the data NLP
+4. Apply transformer tokenizers
+5. Test different transformer models
+
+Second stage
+1. Label data
+2. Train our own model
+3. Deploy model with dagster
+
